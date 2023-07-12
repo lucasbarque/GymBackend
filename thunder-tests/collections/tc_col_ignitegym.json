@@ -1,0 +1,36 @@
+{
+    "_id": "fe52e700-5549-4128-a0b7-5e1ddaf0725d",
+    "colName": "IgniteGym",
+    "created": "2023-07-12T18:10:55.814Z",
+    "sortNum": 10000,
+    "folders": [
+        {
+            "_id": "e9b4f7fb-9464-4606-a0bc-8d1bba6967e9",
+            "name": "Users",
+            "containerId": "",
+            "created": "2023-07-12T18:11:00.243Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "be07826d-d912-4871-8ffa-dcfd9d1fdc20",
+            "colId": "fe52e700-5549-4128-a0b7-5e1ddaf0725d",
+            "containerId": "e9b4f7fb-9464-4606-a0bc-8d1bba6967e9",
+            "name": "Create",
+            "url": "{{baseUrl}}/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-12T18:11:03.649Z",
+            "modified": "2023-07-12T18:56:06.766Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Lucas Barque\",\n  \"email\": \"lucasbarque4@gmail.com\",\n  \"password\": \"123123\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

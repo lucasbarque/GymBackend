@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ignitegym-postgres:
+    container_name: ignitegym-postgres
+    image: bitnami/postgresql
+    ports:
+      - 5434:5432
+    environment:
+      - POSTGRESQL_USERNAME=ignitegym-user
+      - POSTGRESQL_PASSWORD=ignitegym-password
+      - POSTGRESQL_DATABASE=ignitegym
