@@ -22,12 +22,12 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2023-07-12T18:11:03.649Z",
-            "modified": "2023-07-12T18:56:06.766Z",
+            "modified": "2023-07-13T13:44:03.885Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Lucas Barque\",\n  \"email\": \"lucasbarque4@gmail.com\",\n  \"password\": \"123123\"\n}",
+                "raw": "{\n  \"name\": \"Lucas Barque\",\n  \"email\": \"lucasbarque4@gmail.com\",\n  \"password\": \"1\"\n}",
                 "form": []
             },
             "tests": []

@@ -4,6 +4,7 @@ services:
   ignitegym-postgres:
     container_name: ignitegym-postgres
     image: bitnami/postgresql
+    restart: always
     ports:
       - 5434:5432
     environment:
