@@ -17,6 +17,13 @@
             "containerId": "",
             "created": "2023-07-14T13:57:04.614Z",
             "sortNum": 20000
+        },
+        {
+            "_id": "0d1037c2-8fe5-4c5d-af8d-8e7c691897fb",
+            "name": "Profile",
+            "containerId": "",
+            "created": "2023-07-15T15:10:12.700Z",
+            "sortNum": 30000
         }
     ],
     "requests": [
@@ -55,6 +62,24 @@
                 "type": "json",
                 "raw": "{\n  \"email\": \"lucasbarque10@gmail.com\",\n  \"password\": \"123456\"\n}",
                 "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "43dc20c2-872e-4166-893e-92dc78032080",
+            "colId": "fe52e700-5549-4128-a0b7-5e1ddaf0725d",
+            "containerId": "0d1037c2-8fe5-4c5d-af8d-8e7c691897fb",
+            "name": "Me",
+            "url": "{{baseUrl}}/me",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-15T15:10:19.922Z",
+            "modified": "2023-07-17T02:45:51.246Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiOGYyNjc3ZC03MGQ4LTQxYzAtYjM3OC0wZTEwYjg3NjMzNDQiLCJpYXQiOjE2ODk0MzQwNzR9.Izr6kt7XBCSfzEg67XirXks0vbtwppyVUWI-FKLicmE"
             },
             "tests": []
         }
