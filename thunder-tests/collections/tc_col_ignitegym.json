@@ -36,12 +36,12 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2023-07-12T18:11:03.649Z",
-            "modified": "2023-07-14T13:59:05.199Z",
+            "modified": "2023-07-17T22:29:02.865Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Lucas Barque\",\n  \"email\": \"lucasbarque10@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "raw": "{\n  \"name\": \"Lucas Barque ADMIN\",\n  \"email\": \"lucasbarqueadmin@gmail.com\",\n  \"password\": \"123456\"\n}",
                 "form": []
             },
             "tests": []
@@ -82,6 +82,35 @@
                 "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiOGYyNjc3ZC03MGQ4LTQxYzAtYjM3OC0wZTEwYjg3NjMzNDQiLCJpYXQiOjE2ODk0MzQwNzR9.Izr6kt7XBCSfzEg67XirXks0vbtwppyVUWI-FKLicmE"
             },
             "tests": []
+        },
+        {
+            "_id": "7d1a2dc1-bc2b-4500-8d6d-7597cb2f1062",
+            "colId": "fe52e700-5549-4128-a0b7-5e1ddaf0725d",
+            "containerId": "08581d24-e307-456e-822a-dbf970d250ea",
+            "name": "Refresh Token",
+            "url": "{{baseUrl}}/token/refresh",
+            "method": "PATCH",
+            "sortNum": 20000,
+            "created": "2023-07-17T22:19:05.930Z",
+            "modified": "2023-07-17T22:22:33.666Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"lucasbarque10@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": [],
+            "preReq": {
+                "runRequests": [
+                    {
+                        "reqId": "d4cc0b78-5fc1-4f57-b95d-2d7870c7b7d1",
+                        "colId": "fe52e700-5549-4128-a0b7-5e1ddaf0725d",
+                        "triggerCondition": "run-always",
+                        "triggerValue": ""
+                    }
+                ]
+            }
         }
     ]
 }
