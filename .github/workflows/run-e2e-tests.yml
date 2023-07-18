@@ -13,9 +13,9 @@ jobs:
         ports:
           - 5434:5432
         env:
-          - POSTGRESQL_USERNAME=ignitegym-user
-          - POSTGRESQL_PASSWORD=ignitegym-password
-          - POSTGRESQL_DATABASE=ignitegym
+          POSTGRESQL_USERNAME: ignitegym-user
+          POSTGRESQL_PASSWORD: ignitegym-password
+          POSTGRESQL_DATABASE: ignitegym
 
     steps:
       - uses: actions/checkout@v3
